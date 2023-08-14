@@ -929,7 +929,7 @@ struct llama_context_params llama_context_default_params() {
       /*.logits_all                  =*/false,
       /*.vocab_only                  =*/false,
       /*.use_mmap                    =*/true,
-      /*.use_mlock                   =*/false,
+      /*.use_mlock                   =*/true,
       /*.embedding                   =*/false,
   };
 
